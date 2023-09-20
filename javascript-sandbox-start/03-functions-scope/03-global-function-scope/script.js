@@ -1,12 +1,5 @@
-function run() {
-    console.log(window.innerHeight);
+const add = ( a, b) => {
+   return a + b;
 }
 
-run();
-
-function add() {
-    const y = 50;
-    console.log(y)
-}
-
-add()
+console.log(add(1, 2))
