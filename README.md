@@ -1,4 +1,3 @@
-# javascript-sandbox 
 # JavaScript Sandbox Starter Kit
 
 ![GitHub](https://img.shields.io/github/license/ismail-korir/javascript-sandbox-start)
