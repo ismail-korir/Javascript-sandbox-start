@@ -10,11 +10,8 @@ A JavaScript sandbox starter kit with pre-existing files for exercising and test
 - [About](#about)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## About
 
 The JavaScript Sandbox Starter Kit is designed to provide a simple and pre-configured environment for exercising and testing JavaScript code. It comes with pre-existing files and a set of features to make it easy for developers to experiment with JavaScript.
