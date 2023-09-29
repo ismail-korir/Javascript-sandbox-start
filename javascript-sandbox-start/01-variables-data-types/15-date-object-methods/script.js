@@ -1,5 +1,12 @@
 let x;
 
-let d = new Date()
+let d = new Date();
 
-console.log(x)
+x = d.toString();
+
+x = d.getTime();
+x = d.valueOf();
+
+x = d.getFullYear();
+
+console.log(x);
