@@ -1,24 +1,29 @@
-const d = new Date(10, 30, 2022, 6, 0, 0);
-const hour = d.getHours();
-
-if (hour < 12) {
-    console.log('good morning')
-} else if(hour < 18) {
-  console.log('good afternoon')
-}
- else {
-    console.log('good night')
+if (true) {
+    console.log('This is true');
 }
 
-if (hour < 12) {
-        console.log('good morning')
+if (false) {
+    console.log('This is NOT true');
+}
 
-        if(hour === 6) {
-            console.log('wake up')
-        }
-} else if(hour < 18) {
-      console.log('good afternoon')
+const x = 10;
+const y = 50;
+
+if (x >= y) {
+    console.log(`${x} is grater than ${y}`);
 }
-     else {
-        console.log('good night')
+
+
+if (x === y) {
+    console.log(`${x} is equal to ${y}`);
+} else {
+    console.log(`${x} is NOT equal to ${y}`)
 }
+
+if (x !== y) {
+    const z = 20;
+    console.log(`${z} is 20`)
+}
+
+if (x >= y) console.log(`${x} is grater than ${y}`);
+else console.log('This is false')
