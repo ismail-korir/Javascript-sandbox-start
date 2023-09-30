@@ -10,7 +10,7 @@ function calculator(num1, num2, operator) {
                 break;
                 case '*':
                     result = num1 * num2;
-                    break;
+                     break;
                     case '/':
                         result = num1 / num2;
                         break;
