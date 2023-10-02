@@ -4,7 +4,9 @@ const doubleNumbers = numbers.map((number) => number * 2);
 
 console.log(doubleNumbers);
 
-const doubleNumber2 = []
+// Same with forEach
+
+const doubleNumbers2 = [];
 
 numbers.forEach((number) => {
     doubleNumbers2.push(number * 2);
