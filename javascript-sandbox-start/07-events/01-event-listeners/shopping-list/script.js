@@ -1,6 +1,13 @@
-const logo = document.querySelector('img');
+const clearBtn = document.querySelector('#clear');
+
+function onClear() {
+    const itemList = document.querySelector('ul');
+    const items = itemList.querySelectorAll('li');
 
 
+    items.forEach((item) => item.remove());
+}
 
+clearBtn.addEventListener('click', onClear);
 
-logo.addEventListener('click', onClick)
+setTimeout(() => clearBtn.click(), 5000);
